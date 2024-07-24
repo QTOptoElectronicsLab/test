@@ -1,0 +1,65 @@
+ <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h1 class="m-0 text-primary">
+            <i class="fa-solid fa-atom me-3"></i>
+            <span data-key="Site_label">QT Nanoelectronics Lab</span>
+        </h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="about.html" class="nav-item nav-link" data-key="About_label">About</a>
+            <a href="about.html" class="nav-item nav-link" data-key="Professor_label">Professor</a>
+            <a href="about.html" class="nav-item nav-link" data-key="Member_label">Members</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Info_label">Info</a>
+                <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                    <a href="feature.html" class="dropdown-item">Feature</a>
+                    <a href="team.html" class="dropdown-item">Our Doctor</a>
+                    <a href="appointment.html" class="dropdown-item">Appointment</a>
+                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    <a href="404.html" class="dropdown-item">404 Page</a>
+                </div>
+            </div>
+            <a href="about.html" class="nav-item nav-link" data-key="News_label">News</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Language_label">Language</a>
+                <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                    <a href="#" class="dropdown-item lang-drop" onclick="fn_setLanguage('zh')">繁體中文</a>
+                    <a href="#" class="dropdown-item lang-drop" onclick="fn_setLanguage('en')">English</a>
+                </div>
+            </div>
+            <a href="contact.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"><span data-key="Contact_label">Contact</span><i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+<script>
+    const transNavbar = {
+        en: {
+            Title_label: "QT Nanoelectronics Lab",
+            Site_label: "QTNLab",
+            About_label: "About",
+            News_label: "News",
+            Professor_label: "Professor",
+            Member_label: "Members",
+            Info_label: "Info",
+            Contact_label: "Contact Us",
+            Language_label: "Language",
+        },
+        zh: {
+            Title_label: "QT奈米電子實驗室",
+            Site_label: "QTN實驗室",
+            About_label: "關於我們",
+            News_label: "新消息",
+            Professor_label: "指導教授",
+            Member_label: "團隊成員",
+            Info_label: "參考資訊",
+            Contact_label: "連絡我們",
+            Language_label: "切換語系",
+        }
+    };
+</script>
