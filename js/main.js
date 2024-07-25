@@ -127,6 +127,44 @@ function fn_switchLanguage(transMap, lang) {
     });
 }
 
+function fn_getTheme() {
+    const _theme = localStorage.getItem("theme");
+    const theme = _theme || 'normal';
+    return theme;
+}
+
+function fn_setTheme(theme) {
+    localStorage.setItem("theme", theme);
+    location.reload();
+}
+
+function fn_switchDarkTheme() {
+    const _theme = fn_getTheme();
+    document.querySelectorAll('.theme-drop').forEach(item => {
+        if (item.onclick.toString().includes(`fn_setTheme('${_theme}')`)) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+
+    if(_theme==="dark") {
+        const style = document.createElement('style');
+        style.textContent = `
+          html {
+            filter: invert(85%) !important;
+            background-color: #eaf0f7 !important;
+            font-weight: 900 !important;
+          }
+        
+          img {
+            filter: invert(100%) !important;
+          }
+        `;
+        document.head.appendChild(style);
+    }
+}
+
 function fn_loadNavbar(lang) {
     fetch('components/navbar.html')
     .then(response => response.text())
@@ -157,6 +195,7 @@ function fn_loadNavbar(lang) {
             }
         });
 
+        fn_switchDarkTheme();
         fn_switchLanguage(transNavbar, lang);
     });
 }

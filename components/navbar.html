@@ -28,6 +28,13 @@
             <a href="publication.html" class="nav-item nav-link" data-key="Publication_label">Publication</a>
             <!-- <a href="events.html" class="nav-item nav-link" data-key="Events_label">Events</a> -->
             <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Theme_label">Theme</a>
+                <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                    <a href="#" class="dropdown-item theme-drop" onclick="fn_setTheme('normal')"><span>一般模式</span></a>
+                    <a href="#" class="dropdown-item theme-drop" onclick="fn_setTheme('dark')"><span>深色模式</span></a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Language_label">Language</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="#" class="dropdown-item lang-drop" onclick="fn_setLanguage('zh')">繁體中文</a>
@@ -52,6 +59,7 @@
             Events_label: "Events",
             Contact_label: "Contact Us",
             Language_label: "Language",
+            Theme_label: "Theme"
         },
         zh: {
             Title_label: "量子穿隧與光電元件實驗室",
@@ -64,6 +72,7 @@
             Events_label: "活動",
             Contact_label: "連絡我們",
             Language_label: "切換語系",
+            Theme_label: "主題"
         }
     };
 </script>
