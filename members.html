@@ -236,7 +236,7 @@
             .then(data => {
                 document.getElementById('div_education_container').innerHTML = generateLeaderHTML(data[lang].education);
                 document.getElementById('div_experience_container').innerHTML = generateLeaderHTML(data[lang].experience);
-                document.getElementById("img_leader").src = `/img/${data[lang].leader_photo_url}`;
+                document.getElementById("img_leader").src = `img/${data[lang].leader_photo_url}`;
                 fn_switchLanguage(data, lang);
                 fn_switchLanguage(transPage, lang);
                 const mailLinks = document.querySelectorAll('.a_leader_mail');
