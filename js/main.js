@@ -80,8 +80,8 @@
         loop: true,
         nav : true,
         navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
+            '<i class="fa-solid fa-chevron-left"></i>',
+            '<i class="fa-solid fa-chevron-right"></i>'
         ],
         responsive: {
             0:{
