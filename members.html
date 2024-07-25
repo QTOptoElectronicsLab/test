@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img id="img_leader" class="position-absolute img-fluid w-100 h-100" src="" style="object-fit: cover;" alt="">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/leader.png" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -236,7 +236,6 @@
             .then(data => {
                 document.getElementById('div_education_container').innerHTML = generateLeaderHTML(data[lang].education);
                 document.getElementById('div_experience_container').innerHTML = generateLeaderHTML(data[lang].experience);
-                document.getElementById("img_leader").src = `img/${data[lang].leader_photo_url}`;
                 fn_switchLanguage(data, lang);
                 fn_switchLanguage(transPage, lang);
                 const mailLinks = document.querySelectorAll('.a_leader_mail');
