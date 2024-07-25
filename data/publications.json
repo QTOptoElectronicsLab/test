@@ -1,7 +1,8 @@
 [
     {
-        "title": "Shu-Ting Yang, Tilo H. Yang, Bor-Wei Liang, Han-Chieh Lo, Wen-Hao Chang, Ching-Yuan Su, Yann-Wen Lan*",
-        "paper": "Submicron Memtransistors Made from Monocrystalline Molybdenum Disulfide",
+        "index": 1,
+        "authors": "Shu-Ting Yang, Tilo H. Yang, Bor-Wei Liang, Han-Chieh Lo, Wen-Hao Chang, Ching-Yuan Su, Yann-Wen Lan*",
+        "title": "Submicron Memtransistors Made from Monocrystalline Molybdenum Disulfide",
         "journal": "ACS Nano",
         "volume": 18,
         "issue": 9,
@@ -11,8 +12,9 @@
         "IF": 18.027
     },
     {
-        "title": "Bor-Wei Liang, Wen-Hao Chang, Chun-Sheng Huang, You-Jia Huang, Jyun-Hong Chen, Kai-Shin Li, Kristan Bryan Simbulan, Harshvardhan Kumar, Ching-Yuan Su, Chieh-Hsiung Kuan and Yann-Wen Lan",
-        "paper": "Self-powered broadband photodetection enabled by facile CVD-grown MoS2/GaN heterostructures",
+        "index": 2,
+        "authors": "Bor-Wei Liang, Wen-Hao Chang, Chun-Sheng Huang, You-Jia Huang, Jyun-Hong Chen, Kai-Shin Li, Kristan Bryan Simbulan, Harshvardhan Kumar, Ching-Yuan Su, Chieh-Hsiung Kuan and Yann-Wen Lan",
+        "title": "Self-powered broadband photodetection enabled by facile CVD-grown MoS2/GaN heterostructures",
         "journal": "Nanoscale",
         "volume": 15,
         "issue": 45,
@@ -22,8 +24,9 @@
         "IF": 8.37
     },
     {
-        "title": "Tilo H. Yang, Bor-Wei Liang, Hsiang-Chi Hu, Fu-Xiang Chen, Sheng-Zhu Ho, Wen-Hao Chang, Liu Yang, Han-Chieh Lo, Tzu-Hao Kuo, Jyun-Hong Chen, Po-Yen Lin, Kristan Bryan Simbulan, Zhao-Feng Luo, Alice Chinghsuan Chang, Yi-Hao Kuo, Yu-Seng Ku, Yi-Cheng Chen, You-Jia Huang, Yu-Chen Chang, Yu-Fan Chiang, Ting-Hua Lu, Min-Hung Lee, Kai-Shin Li, Menghao Wu, …Yann-Wen Lan",
-        "paper": "Ferroelectric transistors based on shear-transformation-mediated rhombohedral-stacked molybdenum disulfide.",
+        "index": 3,
+        "authors": "Tilo H. Yang, Bor-Wei Liang, Hsiang-Chi Hu, Fu-Xiang Chen, Sheng-Zhu Ho, Wen-Hao Chang, Liu Yang, Han-Chieh Lo, Tzu-Hao Kuo, Jyun-Hong Chen, Po-Yen Lin, Kristan Bryan Simbulan, Zhao-Feng Luo, Alice Chinghsuan Chang, Yi-Hao Kuo, Yu-Seng Ku, Yi-Cheng Chen, You-Jia Huang, Yu-Chen Chang, Yu-Fan Chiang, Ting-Hua Lu, Min-Hung Lee, Kai-Shin Li, Menghao Wu, …Yann-Wen Lan",
+        "title": "Ferroelectric transistors based on shear-transformation-mediated rhombohedral-stacked molybdenum disulfide.",
         "journal": "Nat Electron",
         "volume": 7,
         "issue": 1,
@@ -33,8 +36,9 @@
         "IF": 33.255 
     },
     {
-        "title": "Tzu-En Huang, Hua-Hsing Liu, Chen-Yu Wang, Bor-Wei Liang, Ruei-Yu Hsu, Chiu Hsien Wu, Kuan-Ming Hung, Yann-Wen Lan, and Kuang Yao Lo",
-        "paper": "Quantitative Correlation for Recoverable Monolayer MoS2 Gas Sensing Mechanism: A Fundamental Approach",
+        "index": 4,
+        "authors": "Tzu-En Huang, Hua-Hsing Liu, Chen-Yu Wang, Bor-Wei Liang, Ruei-Yu Hsu, Chiu Hsien Wu, Kuan-Ming Hung, Yann-Wen Lan, and Kuang Yao Lo",
+        "title": "Quantitative Correlation for Recoverable Monolayer MoS2 Gas Sensing Mechanism: A Fundamental Approach",
         "journal": "The Journal of Physical Chemistry C",
         "volume": 127,
         "issue": 36,
@@ -44,8 +48,9 @@
         "IF": 4.177
     },
     {
-        "title": "Shih-Po Chien, Bor-Wei Liang, Wen-Hao Chang, Bo-Wen Wang, Yi-Jie Feng, Yi-Cheng Chen, Yann-Wen Lan",
-        "paper": "Memtransistor-like operation of devices made by graphene/h-BN/MoS2 van der Waals heterostructure.",
+        "index": 5,
+        "authors": "Shih-Po Chien, Bor-Wei Liang, Wen-Hao Chang, Bo-Wen Wang, Yi-Jie Feng, Yi-Cheng Chen, Yann-Wen Lan",
+        "title": "Memtransistor-like operation of devices made by graphene/h-BN/MoS2 van der Waals heterostructure.",
         "journal": "Appl. Phys. Lett.",
         "volume": 123,
         "issue": 14,
@@ -55,8 +60,9 @@
         "IF": 3.7
     },
     {
-        "title": "Shi-Xian Guan, Tilo H. Yang, Chih-Hao Yang, Chuan-Jie Hong, Bor-Wei Liang, Kristan Bryan Simbulan, Jyun-Hong Chen, Chun-Jung Su, Kai-Shin Li, Yuan-Liang Zhong, Lain-Jong Li, and Yann-Wen Lan",
-        "paper": "Monolithic 3D integration of back-end compatible 2D material FET on Si FinFET.",
+        "index": 6,
+        "authors": "Shi-Xian Guan, Tilo H. Yang, Chih-Hao Yang, Chuan-Jie Hong, Bor-Wei Liang, Kristan Bryan Simbulan, Jyun-Hong Chen, Chun-Jung Su, Kai-Shin Li, Yuan-Liang Zhong, Lain-Jong Li, and Yann-Wen Lan",
+        "title": "Monolithic 3D integration of back-end compatible 2D material FET on Si FinFET.",
         "journal": "npj 2D Materials and Applications",
         "volume": 7,
         "issue": 1,
@@ -66,8 +72,9 @@
         "IF": 10.516
     },
     {
-        "title": "Bor-Wei Liang, Min-Fang Li, Hung-Yu Lin, Kai-Shin Li, Jyun-Hong Chen b, Jia-Min Shieh, Chien-Ting Wu, Kristan Bryan Simbulan, Ching-Yuan Su, Chieh-Hsiung Kuan, and Yann-Wen Lan",
-        "paper": "Dual-mode frequency multiplier in graphene-base hot electron transistor.",
+        "index": 7,
+        "authors": "Bor-Wei Liang, Min-Fang Li, Hung-Yu Lin, Kai-Shin Li, Jyun-Hong Chen b, Jia-Min Shieh, Chien-Ting Wu, Kristan Bryan Simbulan, Ching-Yuan Su, Chieh-Hsiung Kuan, and Yann-Wen Lan",
+        "title": "Dual-mode frequency multiplier in graphene-base hot electron transistor.",
         "journal": "Nanoscale",
         "volume": 15,
         "issue": "",
@@ -77,8 +84,9 @@
         "IF": 8.37
     },
     {
-        "title": "Bor-Wei Liang, Wen-Hao Chang, Hung-Yu Lin, Po-Chun Chen, Yi-Tang Zhang, Kristan Bryan Simbulan, Kai-Shin Li, Jyun-Hong Chen, Chieh-Hsiung Kuan, and Yann-Wen Lan",
-        "paper": "High-Frequency Graphene Base Hot-Electron Transistor",
+        "index": 8,
+        "authors": "Bor-Wei Liang, Wen-Hao Chang, Hung-Yu Lin, Po-Chun Chen, Yi-Tang Zhang, Kristan Bryan Simbulan, Kai-Shin Li, Jyun-Hong Chen, Chieh-Hsiung Kuan, and Yann-Wen Lan",
+        "title": "High-Frequency Graphene Base Hot-Electron Transistor",
         "journal": "ACS Nano",
         "volume": 15,
         "issue": 4,
@@ -88,8 +96,9 @@
         "IF": 17.1
     },
     {
-        "title": "Bor-Wei Liang, Chiu-Chang Huang, Song-Po Chao, Kuang-Ju Kao, Kristan Bryan Simbulan, Yann-Wen Lan, and Chieh-Hsiung Kuan",
-        "paper": "Responsivity and detectivity enhancements by graphene overlay on normal-incident multicolor quantum grid infrared photodetectors",
+        "index": 9,
+        "authors": "Bor-Wei Liang, Chiu-Chang Huang, Song-Po Chao, Kuang-Ju Kao, Kristan Bryan Simbulan, Yann-Wen Lan, and Chieh-Hsiung Kuan",
+        "title": "Responsivity and detectivity enhancements by graphene overlay on normal-incident multicolor quantum grid infrared photodetectors",
         "journal": "Opt. Express",
         "volume": 28,
         "issue": "",
@@ -99,8 +108,9 @@
         "IF": 3.894
     },
     {
-        "title": "Yann-Wen Lan, Wen-Hao Chang, Bo-Tang Xiao, Bor-Wei Liang, Jyun-Hong Chen, Pei-hsun Jiang, Lain-Jong Li, Ya-Wen Su, Yuan-Liang Zhong, and Chii-Dong Chen",
-        "paper": "Polymer-Free Patterning of Graphene at Sub-10-nm Scale by Low-Energy Repetitive Electron Beam",
+        "index": 10,
+        "authors": "Yann-Wen Lan, Wen-Hao Chang, Bo-Tang Xiao, Bor-Wei Liang, Jyun-Hong Chen, Pei-hsun Jiang, Lain-Jong Li, Ya-Wen Su, Yuan-Liang Zhong, and Chii-Dong Chen",
+        "title": "Polymer-Free Patterning of Graphene at Sub-10-nm Scale by Low-Energy Repetitive Electron Beam",
         "journal": "small",
         "volume": 10,
         "issue": 22,

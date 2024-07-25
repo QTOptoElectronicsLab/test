@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title data-key="Title_label">QT Nanoelectronics Lab</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="css/css2.css" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="css/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div id="div_Navbar"></div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Members</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Members</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- AboutLeader Start -->
+    <div class="container-fluid bg-primary overflow-hidden px-lg-0" style="margin: 6rem 0;">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0">
+                        <p class="d-inline-block border rounded-pill text-light py-1 px-4" data-key="leader_title">Group Leader</p>
+                        <h1 class="text-white mb-4" data-key="leader_name">Leader Name</h1>
+                        <div id="div_education_container"></div>
+                        <div id="div_experience_container"></div>
+                        <!-- <p class="text-white mb-4 pb-2">
+                            <strong>Ph.D. in Electrical Engineering</strong> (2016~2021)<br>
+                            National Taiwan University<br>
+                            <strong>Master degree in Physics</strong> (2012~2014)<br>
+                            National Taiwan Normal University<br>
+                            <strong>Bachelor degree in Physics</strong> (2008~2012)<br>
+                            National Taiwan Normal University
+                        </p>
+                        <p class="text-white mb-4 pb-2">
+                            <strong>Assistant researcher</strong> (2023.05~2024.08)<br>
+                            Taiwan Semiconductor Research Institute<br>
+                            <strong>Postdoc. Research scholar</strong> (2022.08~2023.04)<br>
+                            Optical Sciences Center, National Central University<br>
+                            <strong>Postdoc. Research scholar</strong> (2021.08~2022.08)<br>
+                            Graduate Institute of Electronics Engineering, National Taiwan University
+                        </p> -->
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-light" style="width: 55px; height: 55px;">
+                                        <a class="a_leader_mail" href="mailto:"><i class="fa-regular fa-envelope text-primary"></i></a>
+                                    </div>
+                                    <div class="ms-4">
+                                        <h5 class="text-white mb-0" data-key="leader_mail_label">E-mail</h5>
+                                        <a class="a_leader_mail" href="mailto:"><p class="text-white mb-2" data-key="leader_mail">charlie155155@hotmail.com</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img id="img_leader" class="position-absolute img-fluid w-100 h-100" src="" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AboutLeader End -->
+
+
+    <!-- Members Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 data-key="members_label">Group Members</h1>
+            </div>
+            <div id="div_member_container" class="row g-4">
+                <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Doctor Name</h5>
+                            <a href="mailto:"><p class="text-primary">Department</p></a>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Doctor Name</h5>
+                            <p class="text-primary">Department</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Doctor Name</h5>
+                            <p class="text-primary">Department</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item position-relative rounded overflow-hidden">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="team-text bg-light text-center p-4">
+                            <h5>Doctor Name</h5>
+                            <p class="text-primary">Department</p>
+                            <div class="team-social text-center">
+                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Members End -->
+        
+
+    <!-- Footer Start -->
+    <div id="div_footer"></div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        const transPage = {
+            en: {
+                leader_title:"Group Leader",
+                leader_mail_label:"E-mail",
+                members_label:"Group Members",
+            },
+            zh: {
+                leader_title:"團隊負責人",
+                leader_mail_label:"電子信箱",
+                members_label:"團隊成員",
+            }
+        };
+
+        $(document).ready(function () {
+            const lang = fn_getLanguage();
+            fn_loadNavbar(lang);
+            fn_loadFooter(lang);
+            
+            fetch('./data/leader.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('div_education_container').innerHTML = generateLeaderHTML(data[lang].education);
+                document.getElementById('div_experience_container').innerHTML = generateLeaderHTML(data[lang].experience);
+                document.getElementById("img_leader").src = `/img/${data[lang].leader_photo_url}`;
+                fn_switchLanguage(data, lang);
+                fn_switchLanguage(transPage, lang);
+                const mailLinks = document.querySelectorAll('.a_leader_mail');
+                mailLinks.forEach(link => {
+                    link.href = `mailto:${data[lang].leader_mail}`;
+                });
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+
+
+            fetch('./data/member.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                document.getElementById('div_member_container').innerHTML = generateMemberHTML(data, lang);
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+
+        });
+    
+        
+        function generateLeaderHTML(data) {
+            let html = '<p class="text-white mb-4 pb-2">';
+            data.forEach(item => {
+                html += `<strong>${item.title}</strong> (${item.year})<br>${item.institution}<br>`;
+            });
+            html += '</p>';
+            return html;
+        }
+
+        function generateMemberHTML(data,lang) {
+            let html = '';
+            data.forEach(item => {
+                html += `<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item position-relative rounded overflow-hidden">
+                                <div class="overflow-hidden">
+                                    <img class="img-fluid" src="img/${item[lang].member_photo_url}" alt="">
+                                </div>
+                                <div class="team-text bg-light text-center p-4">
+                                    <h5>${item[lang].member_name}</h5>
+                                    <a href="mailto:${item[lang].member_mail}"><p class="text-primary">${item[lang].member_mail}</p></a>
+                                    <div class="team-social text-center">
+                                        <p>${item[lang].member_comment}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`;
+            });
+            return html;
+        }
+
+    </script>
+</body>
+
+</html>

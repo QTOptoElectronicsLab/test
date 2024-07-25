@@ -145,6 +145,18 @@ function fn_loadNavbar(lang) {
             document.head.appendChild(newScript).parentNode.removeChild(newScript);
         });
 
+        var currentPath = window.location.pathname;
+        
+        var tabs = document.querySelectorAll('.nav-item.nav-link[data-key]');
+
+        tabs.forEach(function(tab) {
+            var tabPath = new URL(tab.href).pathname;
+
+            if (tabPath === currentPath) {
+                tab.classList.add('active');
+            }
+        });
+
         fn_switchLanguage(transNavbar, lang);
     });
 }

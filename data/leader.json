@@ -1,0 +1,80 @@
+{
+    "en":{
+        "leader_name":"Bor-Wei Liang",
+        "leader_mail":"charlie155155@hotmail.com",
+        "leader_photo_url":"leader.png",
+        "education": [
+            {
+                "title": "Ph.D. in Electrical Engineering",
+                "institution": "National Taiwan University",
+                "year": "2016~2021"
+            },
+            {
+                "title": "Master degree in Physics",
+                "institution": "National Taiwan Normal University",
+                "year": "2012~2014"
+            },
+            {
+                "title": "Bachelor degree in Physics",
+                "institution": "National Taiwan Normal University",
+                "year": "2008~2012"
+            }
+        ],
+        "experience": [
+            {
+                "title": "Assistant researcher",
+                "institution": "Taiwan Semiconductor Research Institute",
+                "year": "2023.05~2024.08"
+            },
+            {
+                "title": "Postdoc. Research scholar",
+                "institution": "Optical Sciences Center, National Central University",
+                "year": "2022.08~2023.04"
+            },
+            {
+                "title": "Postdoc. Research scholar",
+                "institution": "Graduate Institute of Electronics Engineering, National Taiwan University",
+                "year": "2021.08~2022.08"
+            }
+        ]
+    },
+    "zh":{
+        "leader_name":"梁伯維",
+        "leader_mail":"charlie155155@hotmail.com",
+        "leader_photo_url":"leader.png",
+        "education": [
+            {
+                "title": "博士學位",
+                "institution": "國立臺灣大學電子所電子所",
+                "year": "2016~2021"
+            },
+            {
+                "title": "碩士學位",
+                "institution": "國立臺灣師範大學物理所",
+                "year": "2012~2014"
+            },
+            {
+                "title": "學士學位",
+                "institution": "國立臺灣師範大學物理系",
+                "year": "2008~2012"
+            }
+        ],
+        "experience": [
+            {
+                "title": "助理研究員",
+                "institution": "台灣半導體研究中心",
+                "year": "2023.05~2024.08"
+            },
+            {
+                "title": "博士後研究員",
+                "institution": "國立中央大學光電中心",
+                "year": "2022.08~2023.04"
+            },
+            {
+                "title": "博士後研究員",
+                "institution": "國立臺灣大學電子所",
+                "year": "2021.08~2022.08"
+            }
+        ]
+    }
+}

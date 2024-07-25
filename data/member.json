@@ -1,10 +1,30 @@
 [
     {
-        "NameEN":"Tim",
-        "NameZH":"提姆",
-        "Email":"Tim123@gmail.com",
-        "ImgName":"team-1.jpg"
+        "en":{
+            "member_name":"Tim",
+            "member_mail":"Tim123@gmail.com",
+            "member_photo_url":"tim.png",
+            "member_comment":"A.S.A.P."
+        },
+        "zh":{
+            "member_name":"提姆",
+            "member_mail":"Tim123@gmail.com",
+            "member_photo_url":"tim.png",
+            "member_comment":"越快越好"
+        }
+    },
+    {
+        "en":{
+            "member_name":"Test",
+            "member_mail":"Test456@gmail.com",
+            "member_photo_url":"team-1.jpg",
+            "member_comment":"Test"
+        },
+        "zh":{
+            "member_name":"提姆",
+            "member_mail":"Test456@gmail.com",
+            "member_photo_url":"team-1.jpg",
+            "member_comment":"測試"
+        }
     }
-
-
 ]
