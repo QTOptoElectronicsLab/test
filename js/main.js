@@ -129,26 +129,32 @@ function fn_switchLanguage(transMap, lang) {
 
 function fn_getTheme() {
     const _theme = localStorage.getItem("theme");
-    const theme = _theme || 'normal';
+    const theme = _theme || "sun";
     return theme;
 }
 
-function fn_setTheme(theme) {
-    localStorage.setItem("theme", theme);
+function fn_switchTheme() {
+    const _theme = fn_getTheme();
+    if(_theme ==="sun"){
+        localStorage.setItem("theme", "moon");
+    }
+
+    if(_theme ==="moon"){
+        localStorage.setItem("theme", "sun");
+        _theme==="sun"
+    }
+
     location.reload();
 }
 
-function fn_switchDarkTheme() {
+function fn_loadTheme() {
     const _theme = fn_getTheme();
-    document.querySelectorAll('.theme-drop').forEach(item => {
-        if (item.onclick.toString().includes(`fn_setTheme('${_theme}')`)) {
-            item.classList.add('active');
-        } else {
-            item.classList.remove('active');
-        }
-    });
 
-    if(_theme==="dark") {
+    if(_theme==="sun") {
+        document.getElementById("i_theme").className = "fa-regular fa-sun";
+    }
+    
+    if(_theme==="moon") {
         const style = document.createElement('style');
         style.textContent = `
           html {
@@ -162,6 +168,7 @@ function fn_switchDarkTheme() {
           }
         `;
         document.head.appendChild(style);
+        document.getElementById("i_theme").className = "fa-solid fa-moon";
     }
 }
 
@@ -195,7 +202,7 @@ function fn_loadNavbar(lang) {
             }
         });
 
-        fn_switchDarkTheme();
+        fn_loadTheme();
         fn_switchLanguage(transNavbar, lang);
     });
 }

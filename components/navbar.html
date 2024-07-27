@@ -1,4 +1,4 @@
- <!-- Navbar Start -->
+<!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
     <a href="about.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h1 class="m-0 text-primary">
@@ -27,13 +27,14 @@
             <a href="news.html" class="nav-item nav-link" data-key="News_label">News</a>
             <a href="publication.html" class="nav-item nav-link" data-key="Publication_label">Publication</a>
             <!-- <a href="events.html" class="nav-item nav-link" data-key="Events_label">Events</a> -->
-            <div class="nav-item dropdown">
+            <a href="contact.html" class="nav-item nav-link" data-key="Contact_label">Contact</a>
+            <!-- <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Theme_label">Theme</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                     <a href="#" class="dropdown-item theme-drop" onclick="fn_setTheme('normal')"><span data-key="Default_Theme_label">Default</span></a>
                     <a href="#" class="dropdown-item theme-drop" onclick="fn_setTheme('dark')"><span data-key="Dark_Theme_label">Dark</span></a>
                 </div>
-            </div>
+            </div> -->
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-key="Language_label">Language</a>
                 <div class="dropdown-menu rounded-0 rounded-bottom m-0">
@@ -41,7 +42,16 @@
                     <a href="#" class="dropdown-item lang-drop" onclick="fn_setLanguage('en')">English</a>
                 </div>
             </div>
-            <a href="contact.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"><span data-key="Contact_label">Contact Us</span></a>
+           <div style="padding: 10px;">
+                <a class="btn btn-lg btn-primary rounded-circle" style="
+                height: 55px;
+                width: 55px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: normal;"
+                onclick="fn_switchTheme()"><i id="i_theme" class="fa-regular fa-sun"></i></a>
+            </div>
         </div>
     </div>
 </nav>
@@ -60,8 +70,8 @@
             Contact_label: "Contact Us",
             Language_label: "Language",
             Theme_label: "Theme",
-            Default_Theme_label: "Default",
-            Dark_Theme_label: "Dark",
+            // Default_Theme_label: "Default",
+            // Dark_Theme_label: "Dark",
         },
         zh: {
             Title_label: "量子穿隧與光電元件實驗室",
@@ -75,8 +85,8 @@
             Contact_label: "連絡我們",
             Language_label: "切換語系",
             Theme_label: "主題",
-            Default_Theme_label: "預設主題",
-            Dark_Theme_label: "深色主題",
+            // Default_Theme_label: "預設主題",
+            // Dark_Theme_label: "深色主題",
         }
     };
 </script>
