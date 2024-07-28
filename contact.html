@@ -87,11 +87,11 @@
                 <div class="col-lg-4">
                     <div class="h-100 bg-light rounded d-flex align-items-center p-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white" style="width: 55px; height: 55px;">
-                            <i class="fa fa-envelope-open text-primary"></i>
+                            <i class="fa fa-envelope text-primary"></i>
                         </div>
                         <div class="ms-4">
                             <p class="mb-2" data-key="mail_label"></p>
-                            <a href="mailto:support@yourmail.com"><h5 class="mb-0" data-key="mail_value"></h5></a>
+                            <a class="a_contact_mail" href="mailto:support@yourmail.com"><h5 class="mb-0" data-key="contact_mail"></h5></a>
                         </div>
                     </div>
                 </div>
@@ -129,10 +129,14 @@
     <script>
         const transPage = {
             en: {
+                map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442aa1e27ab738b!2d121.53713082992653!3d25.007930604745408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa1e27ab738b:0x2e5be38c37583475!2sNational Taiwan Normal University Gongguan Campus!5e0!3m2!1sen!2s!4v1603794290143!5m2!1sen!2s",
                 header_label: "Contact Us",
+                contact_mail: "charlie155155@hotmail.com",
             },
-            zh: {
+            zh: { 
+                map_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442aa1e27ab738b!2d121.53713082992653!3d25.007930604745408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa1e27ab738b:0x2e5be38c37583475!2s國立臺灣師範大學 公館校區!5e0!3m2!1szh-TW!2stw!4v1603794290143!5m2!1szh-TW!2stw",
                 header_label: "連絡我們",
+                contact_mail: "charlie155155@hotmail.com",
             }
         };
 
@@ -142,21 +146,14 @@
             fn_loadNavbar(lang);
             fn_loadFooter(lang);
 
-            fetch('./data/adress.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                document.getElementById("ifr_Map").src = data[lang];
-                fn_switchLanguage(transPage, lang);
-            })
-            .catch(error => {
-                console.error('There has been a problem with your fetch operation:', error);
-            });
+            
+            document.getElementById("ifr_Map").src = data[lang].map_url;
+            fn_switchLanguage(transPage, lang);
 
+            const mailLinks = document.querySelectorAll('.a_contact_mail');
+            mailLinks.forEach(link => {
+                link.href = `mailto:${data[lang].contact_mail}`;
+            });
         });
     </script>
 </body>
