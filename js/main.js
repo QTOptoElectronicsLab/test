@@ -166,6 +166,10 @@ function fn_loadTheme() {
           img {
             filter: invert(100%) !important;
           }
+
+          iframe {
+            filter: invert(100%) !important;
+          }
         `;
         document.head.appendChild(style);
         document.getElementById("i_theme").className = "fa-solid fa-moon";
