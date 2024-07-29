@@ -160,7 +160,6 @@ function fn_loadTheme() {
           html {
             filter: invert(85%) !important;
             background-color: #eaf0f7 !important;
-            font-weight: 900 !important;
           }
         
           img {
@@ -168,7 +167,7 @@ function fn_loadTheme() {
           }
 
           iframe {
-            filter: invert(100%) !important;
+            filter: invert(90%) !important;
           }
         `;
         document.head.appendChild(style);
