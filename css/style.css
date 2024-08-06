@@ -41,6 +41,12 @@
 }
 
 
+/*** word-break ***/
+.wb{
+    word-break: break-all;
+}
+
+
 /*** Button ***/
 .btn {
     font-weight: 500;

@@ -160,11 +160,14 @@ function fn_loadTheme() {
           html {
             filter: invert(85%) !important;
             background-color: #eaf0f7 !important;
-            font-weight: 900 !important;
           }
         
           img {
             filter: invert(100%) !important;
+          }
+
+          iframe {
+            filter: invert(90%) !important;
           }
         `;
         document.head.appendChild(style);
